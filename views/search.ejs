@@ -1,0 +1,20 @@
+<%- include ('partials/header') %>
+
+<div class="container">
+ <div class="jumbotron my-bg text-light">
+  <h1><i class="fas fa-search"></i>SEARCH FOR ANY MOVIE</h1>
+  <p>Enter the title of movie you like to search <br> A list of 10 movies from IMDb Site matching the title will be displayed
+  </p>
+ </div>
+ 
+ <div id="form">
+ <form action="/result" method="GET">
+   <div class="form-group">
+	<input class="form-control" type="text" placeholder="enter movie name" name="search">
+   </div>
+	<input class="btn btn-primary btn-block" type="submit">
+ </form>
+ </div>
+</div>
+
+<%- include ('partials/footer') %>
