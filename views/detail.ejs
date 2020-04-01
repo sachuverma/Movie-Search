@@ -1,6 +1,6 @@
 <%- include ('partials/header') %>
 
-<div class="container" id="movie-detail">
+<div class="container-xl" id="movie-detail">
  <div class="jumbotron my-bg text-light">
   <h1><i class="fas fa-trophy"></i> <strong> Title: </strong><%= data["Title"] %></h1>
   <h6><strong>Director: </strong><%= data["Director"] %></h6> 
@@ -8,7 +8,7 @@
  </div>
 
  <div class="half half-poster"><img src="<%= data["Poster"] %>" alt="Poster Not Available"></div>
- <div class="half">
+ <div class="half movie-detail">
   <div> <h6><strong>Year: </strong><%= data["Year"] %></h6> </div>
   <div> <h6><strong>Genre: </strong><%= data["Genre"] %></h6> </div>
   <div> <h6><strong>Rated: </strong><%= data["Rated"] %></h6> </div>
