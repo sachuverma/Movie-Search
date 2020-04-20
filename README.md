@@ -1,5 +1,5 @@
 # Search-Movie
-## A Web App created using Node.js
+## A Web App created using Node.js and REST API
 
 User Can Search of Movies by it's name and get it's detailed info from IMDb Website      
 A free Movies API from [OMDb API](http://www.omdbapi.com/) Website is used
