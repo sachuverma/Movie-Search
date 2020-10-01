@@ -7,7 +7,7 @@ A free Movies API from [OMDb API](http://www.omdbapi.com/) Website is used
 ### App is Deployed here
 > https://sachu-movie-api.herokuapp.com/
 
-Clone the project directory, you can run:
+For demo , clone the project directory:
 ### `npm install`
 To install all the node modules specified in package.json
 
